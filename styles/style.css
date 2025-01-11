@@ -188,9 +188,64 @@ font-weight: 600;
 
 }
 .about-para2{
-    color: rgba(14, 14, 14, 0.6);
-
+color: rgba(14, 14, 14, 0.6);
 font-size: 16px;
 font-weight: 400;
+}
+
+.third-heading{
+    color: rgb(14, 14, 14);
+
+font-size: 40px;
+font-weight: 700;
+
+}
+.third-para{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.box-1{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+}
+.box-1-heading{
+color: rgba(14, 14, 14, 0.8);
+
+font-size: 32px;
+font-weight: 700;
+}
+.box-1-para{
+    color: rgba(14, 14, 14, 0.7);
+    
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.box-content{
+    gap: 32px;
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+}
+.time{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.box-1-button{
+    color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
 
 }
