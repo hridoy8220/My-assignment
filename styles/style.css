@@ -27,7 +27,7 @@ font-weight: 600;
 main section{
     margin-right: 160px;
     margin-left: 160px;
-
+    margin-bottom: 80px;
 }
 .first-section{
     
@@ -66,4 +66,131 @@ background: rgb(0, 106, 80);
 padding: 17px 34px 17px 34px;
 color: rgb(255, 255, 255);
 font-size: 18px;
+}
+
+.banner{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.banner-1{
+box-sizing: border-box;
+border-radius: 16px;
+padding: 32px;
+background: rgba(84, 144, 245, 0.2);
+
+
+
+}
+.banner-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    
+    
+      
+}
+.banner-3{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+padding: 32px;
+
+
+
+
+}
+.banner-heading{
+
+
+}
+.banner-para{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+
+
+}
+.banner-butt1{
+border-radius: 8px;
+background: rgb(84, 144, 245);
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+}
+.banner-butt2{
+border-radius: 8px;
+background: rgb(9, 161, 92);
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+}
+.banner-butt3{
+border-radius: 8px;
+background: rgb(255, 194, 57);
+gap: 48;
+padding: 11px 20px 11px 20px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+border: none;
+}
+.second-heading{
+color: rgb(14, 14, 14);
+font-size: 45px;
+font-weight: 700;
+margin-bottom: 24px;
+
+
+}
+.second-para{
+
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+
+font-weight: 400;
+margin-bottom: 32px;
+
+}
+
+.about{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-top: 32px;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position: 25px 24px;
+
+padding: 48px 24px 48px 24px;
+
+}
+
+.about-para{
+color: rgba(14, 14, 14, 0.8);
+font-size: 16px;
+font-weight: 400;
+}
+
+.about-heading{
+color: rgba(14, 14, 14, 0.8);
+
+font-size: 20px;
+font-weight: 600;
+
+}
+.about-para2{
+    color: rgba(14, 14, 14, 0.6);
+
+font-size: 16px;
+font-weight: 400;
+
 }
