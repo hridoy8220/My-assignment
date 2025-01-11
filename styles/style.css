@@ -16,12 +16,15 @@
    color:  rgb(14, 14, 14);
 }
 .butt{
-box-sizing: border-box;
-border: 1px solid rgb(0, 106, 80);
-border-radius: 8px;
-padding: 12px 24px 12px 24px;
-font-size: 18px;
-font-weight: 600;
+
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    color: rgb(0, 106, 80);
+    
+    font-size: 18px;
+    font-weight: 600;
+  
 }
 
 main section{
@@ -122,6 +125,7 @@ padding: 11px 20px 11px 20px;
 color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 600;
+border: none;
 }
 .banner-butt2{
 border-radius: 8px;
@@ -131,11 +135,12 @@ padding: 11px 20px 11px 20px;
 color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: 600;
+border: none;
 }
 .banner-butt3{
 border-radius: 8px;
 background: rgb(255, 194, 57);
-gap: 48;
+gap: 48px;
 padding: 11px 20px 11px 20px;
 color: rgb(255, 255, 255);
 font-size: 16px;
@@ -209,8 +214,14 @@ font-weight: 400;
 
 .box-1{
     display: flex;
-    gap: 32px;
+    gap:32px;
     padding: 48px;
+    border-radius: 24px;
+margin-bottom: 24px;
+
+background: rgb(255, 255, 255);
+box-shadow: 0px 6px 50px 0px   rgba(0, 0, 0, 0.06);
+    
 }
 .box-1-heading{
 color: rgba(14, 14, 14, 0.8);
@@ -238,14 +249,129 @@ color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
 }
-
 .box-1-button{
-    color: rgb(255, 255, 255);
-
+color: rgb(255, 255, 255);
 font-size: 18px;
 font-weight: 600;
 border-radius: 8px;
-
 background: rgb(0, 106, 80);
+border:none;
+padding: 13px 26px 13px 26px;
 
+}
+.image{
+
+    border-radius: 24px;
+}
+.box-2{
+    display: flex;
+    gap: 32px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    border-radius: 24px;
+    margin-top: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 6px 50px 0px   rgba(0, 0, 0, 0.06);
+}
+
+.box{
+    gap: 40px;
+    margin: 32px 0px;
+}
+.third-section{
+    gap: 24px;
+}
+.fourth-section{
+    text-align: center;
+}
+.fourth-heading{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+
+}
+
+.fourth-para{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+
+
+}
+
+.money{
+    display: flex;
+    gap: 24px;
+   
+height: 128px;
+margin: auto;
+justify-content: center;
+padding: 32px;
+}
+.donate{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: whitesmoke;
+width: 264px;
+border: none;
+height: 128px;
+}
+.donated{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(198, 228, 214);;
+width: 264px;
+border: none;
+height: 128px;
+
+}
+
+.donate-money{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight:700;
+    margin: 18px 0px;
+}
+
+.inputt input{
+     border-radius: 8px;
+background: whitesmoke;
+padding: 20px 40px 20px 40px;
+width: 950px;
+border: none;
+text-align: center;
+margin-bottom: 32px;
+
+}
+.done{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+padding: 17px 34px 17px 34px;
+color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 600;
+
+}
+.Last-Section{
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+ margin: auto;
+ width: 1280px;
+height: 395px;
+}
+
+
+.Subscribe-heading{
+    color: rgb(14, 14, 14);
+
+font-size: 40px;
+font-weight: 700;
+
+}
+.Subscribe{
+    text-align: center;
+    padding: 80px 100px 80px 100px;
 }
