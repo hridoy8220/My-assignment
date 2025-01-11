@@ -1,0 +1,69 @@
+.open-sans-uniquifier {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding:24px 160px;
+}
+.bd{
+    font-size: 32px;
+    font-weight: 700;
+   color:  rgb(14, 14, 14);
+}
+.butt{
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+padding: 12px 24px 12px 24px;
+font-size: 18px;
+font-weight: 600;
+}
+
+main section{
+    margin-right: 160px;
+    margin-left: 160px;
+
+}
+.first-section{
+    
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+   
+}
+.f-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 100px;
+    gap: 64px;
+}
+.f-heading{
+    color: rgba(14, 14, 14, 0.5);
+
+font-size: 24px;
+font-weight: 500;
+
+}
+.f-para{
+    color: rgb(14, 14, 14);
+font-size: 60px;
+font-weight: 700;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+.f-subbanner{
+    padding: 0px;
+    max-width: 622px;
+}
+.f-button{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+}
