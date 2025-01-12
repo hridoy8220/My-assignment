@@ -44,6 +44,8 @@ main section{
     justify-content: space-between;
     margin: 80px 100px;
     gap: 64px;
+    width: 1280px;
+
 }
 .f-heading{
     color: rgba(14, 14, 14, 0.5);
