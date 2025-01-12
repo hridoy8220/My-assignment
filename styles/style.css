@@ -371,7 +371,49 @@ font-size: 40px;
 font-weight: 700;
 
 }
+.Subscribe-para{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+
+}
 .Subscribe{
     text-align: center;
     padding: 80px 100px 80px 100px;
+}
+
+.Subscribe input{
+    border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+padding: 18px 40px 18px 40px;
+width: 600px;
+border: none;
+}
+.Subscribe button{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    border: none;
+    color: rgb(255, 255, 255);
+ 
+    font-size: 14px;
+    font-weight: 600;
+    padding: 17px 34px 17px 34px;
+    
+
+}
+button:hover{
+    background-color: red;
+}
+.donate:hover{
+    background-color: blue;
+}
+.promise{
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+
 }
